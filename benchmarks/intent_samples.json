@@ -1,0 +1,26 @@
+[
+  {
+    "text": "Create a file called notes.txt",
+    "expected_intents": ["create_file"]
+  },
+  {
+    "text": "Write a Python function to reverse a string and save it to reverse.py",
+    "expected_intents": ["write_code"]
+  },
+  {
+    "text": "Summarize the following: Machine learning is a field of AI focused on data-driven predictions.",
+    "expected_intents": ["summarize"]
+  },
+  {
+    "text": "What is the capital of France?",
+    "expected_intents": ["general_chat"]
+  },
+  {
+    "text": "Summarize this paragraph and save it to summary.txt",
+    "expected_intents": ["summarize", "create_file"]
+  },
+  {
+    "text": "Create a folder called scripts and write code for bubble sort",
+    "expected_intents": ["create_file", "write_code"]
+  }
+]
